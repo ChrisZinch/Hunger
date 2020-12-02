@@ -1,0 +1,28 @@
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline:before,
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 18px;
+  width: 0;
+  height: 1px;
+  border: 1px solid $bright-color;
+  border-radius: 5px;
+  opacity: 0;
+  transition: all 0.2s ease-in;
+  background-color: $bright-color;
+  left: 0;
+}
+
+.hover-underline:hover {
+  cursor: pointer;
+}
+
+.hover-underline:hover::after,
+.hover-underline:hover:before {
+  width: 100%;
+  opacity: 1;
+}

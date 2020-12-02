@@ -1,0 +1,37 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin-top: 67px;
+    font-family: "Bunny";
+    text-transform: uppercase;
+    font-size: 34px;
+  }
+
+  &__paragraph {
+    margin-top: 10px;
+    margin-bottom: 47px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 39vw;
+  }
+
+  &__toggle:active {
+    background-color: $bright-color;
+  }
+
+  &__toggle:focus {
+    background-color: $bright-color;
+  }
+
+  &__toggle:hover {
+    background-color: $bright-color;
+  }
+}
+
+

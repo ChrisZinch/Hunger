@@ -1,0 +1,19 @@
+@mixin button-header {
+  width: 185px;
+  height: 55px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+@mixin descriptions {
+  width: inherit;
+  overflow: hidden;
+  height: 75px;
+  max-width: 444px;
+  background-color: #000;
+}

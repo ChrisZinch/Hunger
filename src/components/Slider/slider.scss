@@ -1,0 +1,149 @@
+.slider {
+  &__wrapper  {
+    position: relative;
+    width: 75vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    
+    &::before {
+      border: 18px solid #E8C300;
+      border-radius: 5px;
+      content: "";
+      height: 14vw;
+      position: absolute;
+      width: 14vw;
+      top: 22%;
+      left: -10%;
+      z-index: 2;
+    }
+  }
+
+  &__image {
+    border-radius: 5px;
+  }
+
+  &__title {
+    text-align: center;
+    font-family: "Bunny";
+    font-size: 34px;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  &__description {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    margin: 10px 0 30px;
+  }
+
+  &__detail {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 90%;
+    text-align: center;
+  }
+
+  &__left {
+    width: 75vw;
+    height: 33vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 442px;
+  }
+}
+
+.slick-dots li.slick-active button::before {
+  color: #fff;
+  opacity: 1;
+}
+
+.slick-arrow,
+.slick-next {
+  visibility: hidden;
+}
+
+.slick-dots li button::before {
+  color: #fff;
+  opacity: 50%;
+}
+
+@media screen and (min-width: 1420px) {
+  .slick-dots {
+    top: 450px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .slider__description {
+    font-size: 12px;
+    margin-bottom: 15px;
+    line-height: 20px;
+  }
+
+  .slider__title {
+    font-size: 28px;
+  }
+
+  .slider__left {
+    grid-template-rows: 350px;
+  }
+
+  .slider__detail {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .slick-dots {
+    top: 350px;
+  } 
+}
+
+@media screen and (max-width: 870px) {
+  .slider__wrapper {
+    height: 350px;
+  }
+
+  .slider__left {
+    grid-template-rows: 250px;
+  }
+
+  .slick-dots {
+    top: 280px;
+  }
+
+  .slider__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .slider__left {
+    grid-template-rows: 200px;
+  }
+
+  .slider__title {
+    font-size: 16px;
+  }
+
+  .slider__description {
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+    line-height: 15px;
+  }
+
+  .slider__detail {
+    display: none;
+  }
+
+  .slider__wrapper {
+    &::before {
+      top: 15%;
+    }
+  }
+}

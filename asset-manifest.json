@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/hunger/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/hunger/static/js/main.ec48ce30.chunk.js",
-    "main.js.map": "/hunger/static/js/main.ec48ce30.chunk.js.map",
-    "runtime-main.js": "/hunger/static/js/runtime-main.2efc02a9.js",
-    "runtime-main.js.map": "/hunger/static/js/runtime-main.2efc02a9.js.map",
-    "static/js/2.c101e913.chunk.js": "/hunger/static/js/2.c101e913.chunk.js",
-    "static/js/2.c101e913.chunk.js.map": "/hunger/static/js/2.c101e913.chunk.js.map",
-    "static/js/3.384e2a8c.chunk.js": "/hunger/static/js/3.384e2a8c.chunk.js",
-    "static/js/3.384e2a8c.chunk.js.map": "/hunger/static/js/3.384e2a8c.chunk.js.map",
+    "main.css": "/hunger/static/css/main.1ef10057.chunk.css",
+    "main.js": "/hunger/static/js/main.dc18d733.chunk.js",
+    "main.js.map": "/hunger/static/js/main.dc18d733.chunk.js.map",
+    "runtime-main.js": "/hunger/static/js/runtime-main.ef195d7e.js",
+    "runtime-main.js.map": "/hunger/static/js/runtime-main.ef195d7e.js.map",
+    "static/js/2.daa148c5.chunk.js": "/hunger/static/js/2.daa148c5.chunk.js",
+    "static/js/2.daa148c5.chunk.js.map": "/hunger/static/js/2.daa148c5.chunk.js.map",
     "index.html": "/hunger/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/hunger/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.c101e913.chunk.js.LICENSE.txt": "/hunger/static/js/2.c101e913.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/hunger/static/media/logo.6ce24c58.svg"
+    "static/css/main.1ef10057.chunk.css.map": "/hunger/static/css/main.1ef10057.chunk.css.map",
+    "static/js/2.daa148c5.chunk.js.LICENSE.txt": "/hunger/static/js/2.daa148c5.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/hunger/static/media/wedding.39f21dba.jpg",
+    "static/media/fb.1cd2ad39.svg": "/hunger/static/media/fb.1cd2ad39.svg",
+    "static/media/inst.cbb6e17a.svg": "/hunger/static/media/inst.cbb6e17a.svg",
+    "static/media/logo.ce37ee5f.svg": "/hunger/static/media/logo.ce37ee5f.svg",
+    "static/media/pancakes.df82cbe0.jpg": "/hunger/static/media/pancakes.df82cbe0.jpg",
+    "static/media/salad.b5ff13af.jpg": "/hunger/static/media/salad.b5ff13af.jpg",
+    "static/media/steak.f82b4aaa.jpg": "/hunger/static/media/steak.f82b4aaa.jpg",
+    "static/media/tw.91fe01f9.svg": "/hunger/static/media/tw.91fe01f9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2efc02a9.js",
-    "static/js/2.c101e913.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.ec48ce30.chunk.js"
+    "static/js/runtime-main.ef195d7e.js",
+    "static/js/2.daa148c5.chunk.js",
+    "static/css/main.1ef10057.chunk.css",
+    "static/js/main.dc18d733.chunk.js"
   ]
 }
